@@ -1,0 +1,89 @@
+section{
+    width: 100%;
+    background-image: url(aesthetic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: palevioletred;
+    padding: 0px 5%;
+}
+
+nav ul{
+    padding: 40px;
+    list-style: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    color: black;
+}
+
+.dua{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+    overflow: hidden;
+}
+
+.dua img{
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ndin{
+    width: 200px;
+    position: absolute;
+    top: 90px;
+    left: 300px;
+    color: black;
+}
+
+legend{
+    color: black;
+}
+
+.dinut{
+    width: 300px;
+    position: absolute;
+    text-align: right;
+    top: 100px;
+    right: 20px;
+    color: black;
+}
+
+h2{
+    text-decoration: underline;
+}
+.text{
+    color: whitesmoke;
+}
+
+.vidio{
+    display: flex;
+    justify-content: space-around;
+}
+
+.category{
+    gap: 10px 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
